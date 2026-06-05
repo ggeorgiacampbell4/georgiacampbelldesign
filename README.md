@@ -1,2 +1,2 @@
 # georgiacampbelldesignporfolio
-Georgia Campbell's Design Porfolio
+Georgia Campbell's Design Portfolio
