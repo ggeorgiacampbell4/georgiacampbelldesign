@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATD Soft-Tissue Surrogate — Georgia Campbell</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .project-hero{min-height:55vh;display:flex;flex-direction:column;justify-content:flex-end;padding:8rem 4rem 4rem;border-bottom:1px solid var(--line);max-width:100%;}
+    .back-link{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.75rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-bottom:3rem;transition:color 0.2s;}
+    .back-link:hover{color:var(--accent);}
+    .project-eyebrow{font-size:0.72rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;display:flex;align-items:center;gap:0.75rem;}
+    .project-eyebrow::before{content:'';display:block;width:2rem;height:1px;background:var(--accent);}
+    .project-title{font-family:'Cormorant Garamond',serif;font-size:clamp(2.5rem,6vw,5.5rem);font-weight:300;line-height:1;color:var(--dark);margin-bottom:2rem;}
+    .project-title em{font-style:italic;color:var(--accent);}
+    .project-meta-bar{display:flex;gap:3rem;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:1.5rem;}
+    .meta-label{font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);margin-bottom:0.25rem;}
+    .meta-value{font-size:0.9rem;color:var(--dark);font-weight:500;}
+    .project-body{max-width:1100px;margin:0 auto;padding:5rem 4rem;}
+    .project-body-grid{display:grid;grid-template-columns:2fr 1fr;gap:5rem;}
+    .project-body h3{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:400;color:var(--dark);margin-bottom:1rem;margin-top:2.5rem;}
+    .project-body h3:first-child{margin-top:0;}
+    .project-body p{color:var(--mid);line-height:1.85;margin-bottom:1rem;font-size:0.95rem;}
+    .project-body ul{list-style:none;margin-bottom:1rem;}
+    .project-body ul li{font-size:0.9rem;color:var(--mid);padding:0.4rem 0;border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:0.75rem;}
+    .project-body ul li::before{content:'—';color:var(--accent);font-size:0.7rem;flex-shrink:0;}
+    .project-sidebar{position:sticky;top:6rem;}
+    .sidebar-card{background:var(--card-bg);border:1px solid var(--line);border-radius:4px;padding:1.5rem;margin-bottom:1.5rem;}
+    .sidebar-card-label{font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem;}
+    .sidebar-tag-list{display:flex;flex-wrap:wrap;gap:0.4rem;}
+    .img-placeholder{width:100%;aspect-ratio:4/3;background:linear-gradient(135deg,#EDE8E0 0%,#DDD5C8 100%);border:1px solid var(--line);border-radius:4px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.5rem;margin-bottom:1.5rem;font-size:2.5rem;}
+    .img-placeholder span{font-size:0.75rem;color:var(--muted);letter-spacing:0.08em;text-transform:uppercase;}
+    .next-project{border-top:1px solid var(--line);padding:3rem 4rem;max-width:100%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;}
+    .next-label{font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);margin-bottom:0.4rem;}
+    .next-title{font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:400;color:var(--dark);text-decoration:none;transition:color 0.2s;}
+    .next-title:hover{color:var(--accent);}
+    @media(max-width:768px){.project-hero{padding:7rem 1.5rem 3rem;}.project-body{padding:3rem 1.5rem;}.project-body-grid{grid-template-columns:1fr;}.project-sidebar{position:static;}.next-project{padding:2rem 1.5rem;}}
+  </style>
+</head>
+<body>
+<nav>
+  <a href="../index.html" class="nav-name">Georgia Campbell</a>
+  <ul class="nav-links">
+    <li><a href="../index.html#about">About</a></li><li><a href="../index.html#research">Research</a></li>
+    <li><a href="../index.html#projects">Projects</a></li><li><a href="../index.html#experience">Experience</a></li>
+    <li><a href="../index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+<div class="project-hero">
+  <a href="../index.html#projects" class="back-link">← All Projects</a>
+  <div class="project-eyebrow">2025–Present · McMaster Injury Biomechanics Lab</div>
+  <h1 class="project-title">ATD<br><em>Soft-Tissue</em><br>Surrogate</h1>
+  <div class="project-meta-bar">
+    <div><div class="meta-label">Material</div><div class="meta-value">TPU–Silicone Composite</div></div>
+    <div><div class="meta-label">Application</div><div class="meta-value">Anthropomorphic Test Devices</div></div>
+    <div><div class="meta-label">Standard</div><div class="meta-value">ASTM-Based Testing</div></div>
+  </div>
+</div>
+<div class="project-body">
+  <div class="project-body-grid">
+    <div>
+      <h3>Overview</h3>
+      <p>As part of my undergraduate research position at McMaster's Injury Biomechanics Lab, I designed and prototyped a TPU–silicone composite soft-tissue surrogate for use in anthropomorphic test devices (ATDs), more commonly known as crash test dummies.</p>
+      <h3>Why Surrogates Matter</h3>
+      <p>ATDs are used in vehicle safety testing to predict how human bodies respond to impact forces. The soft-tissue components of these dummies must accurately simulate the mechanical behaviour of human tissue. This includes how it deforms and recovers under compression and impact. Improving biofidelity (how closely a surrogate mimics real tissue) directly correlates to the predictive accuracy of crash tests.</p>
+      <h3>Design &amp; Fabrication</h3>
+      <p>I developed the surrogate concept using a TPU–silicone composite, selected for its tunable mechanical properties. The design involved CAD modelling of interlocking geometries and custom casting molds to produce consistent specimens. Candidate material formulations were systematically evaluated, and an ASTM-based testing plan was developed to characterize compression and impact response against human tissue benchmarks.</p>
+      <h3>Key Contributions</h3>
+      <ul>
+        <li>Designed TPU–silicone composite surrogate concept and material selection approach</li>
+        <li>Developed CAD for interlocking geometries and casting mold design</li>
+        <li>Planned ASTM-based compression and impact testing protocol</li>
+        <li>Conducted two 10-minute presentations to Mechanical Engineering faculty</li>
+        <li>Documented findings in a formalized research report</li>
+      </ul>
+      
+    <div class="project-sidebar">
+      <img src="../images/coupon_mfg.jpg" alt="ATD surrogate coupon manufacturing" style="width:100%; height:280px; object-fit:cover; object-position:center; border-radius:4px; margin-bottom:1.5rem;">
+      <img src="../images/comp_test_atd.jpg" alt="ATD compression testing" style="width:100%; height:280px; object-fit:cover; object-position:center; border-radius:4px; margin-bottom:1.5rem;">
+      <div class="sidebar-card">
+        <div class="sidebar-card-label">Skills &amp; Tools</div>
+        <div class="sidebar-tag-list">
+          <span class="tag">TPU / Silicone</span><span class="tag">CAD Mold Design</span>
+          <span class="tag">ASTM Testing</span><span class="tag">Biofidelity</span>
+          <span class="tag">Material Science</span><span class="tag">Technical Writing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="next-project">
+  <a href="../index.html#projects" class="back-link" style="margin-bottom:0;">← Back to All Projects</a>
+</div>
+<footer><span>© 2026 Georgia Campbell</span><span>Mechanical &amp; Biomedical Engineering · McMaster University</span></footer>
+</body></html>
